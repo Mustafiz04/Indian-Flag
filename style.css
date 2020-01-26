@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+}
+sup{
+    font-size: 2rem;
+}
+#o{
+    color: #FF9933;
+}
+#t{
+    color: white;
+}
+#th{
+    color: #138808;
+}
+.flag{
+    font-size: 10px;
+    width: 90em;
+    height: 60em;
+    border: 1px solid #aaa;
+    margin: 0 auto;
+}
+.strip{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.strip1{
+    background-color : #FF9933;   
+}
+.strip2{
+    padding: 1em;
+    background-color: white;
+}
+.strip3{
+    background-color: #138808;
+}
+.ashoka{
+    width: 16em;
+    height: 16em;
+    position: relative;
+    border: 1em solid navy;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.ashoka::before{
+    content: "";
+    position: absolute;
+    top: 6.5em;
+    left: 6.5em;
+    width: 3em;
+    height: 3em;
+    background-color: navy;
+    border-radius: 50%;
+}
+ .spoke{
+    width: 1em;
+    height: 0;
+    position: absolute;
+    top: 7.75em;
+    left: 8em;
+    border-top: 0.25em solid transparent;
+    border-right: 2em solid navy;
+    border-bottom: 0.25em solid transparent;
+    transform-origin: 0 0.25em;
+}
+
+.spoke:before{
+    content : "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -0.25em;
+    left: 3em;
+    border-top: 0.25em solid transparent;
+    border-left: 5em solid navy;
+    border-bottom: 0.25em solid transparent;
+}
+.spoke::after{
+    content: "";
+    position: absolute;
+    width: 0.8em;
+    height: 0.8em;
+    top: 0.66em;
+    left: 7.6em;
+    background-color : navy;
+    border-radius: 50%;
+}
+.spoke1{
+    transform: rotate(0deg);
+}
+.spoke2{
+    transform: rotate(15deg);
+}
+.spoke3{
+    transform: rotate(30deg);
+}
+.spoke4{
+    transform: rotate(45deg);
+}
+.spoke5{
+    transform: rotate(60deg);
+}
+.spoke6{
+    transform: rotate(75deg);
+}
+.spoke7{
+    transform: rotate(90deg);
+}
+.spoke8{
+    transform: rotate(105deg);
+}
+.spoke9{
+    transform: rotate(120deg);
+}
+.spoke10{
+    transform: rotate(135deg);
+}
+.spoke11{
+    transform: rotate(150deg);
+}
+.spoke12{
+    transform: rotate(165deg);
+}
+.spoke13{
+    transform: rotate(180deg);
+}
+.spoke14{
+    transform: rotate(195deg);
+}
+.spoke15{
+    transform: rotate(210deg);
+}
+.spoke16{
+    transform: rotate(225deg);
+}
+.spoke17{
+    transform: rotate(240deg);
+}
+.spoke18{
+    transform: rotate(255deg);
+}
+.spoke19{
+    transform: rotate(270deg);
+}
+.spoke20{
+    transform: rotate(285deg);
+}
+.spoke21{
+    transform: rotate(300deg);
+}
+.spoke22{
+    transform: rotate(315deg);
+}
+.spoke23{
+    transform: rotate(330deg);
+}
+.spoke24{
+    transform: rotate(345deg);
+}
+.ashoka{
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
