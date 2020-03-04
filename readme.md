@@ -1,3 +1,2 @@
 #Indian Flag 
-this is md file
-Indian flag was made by animation through html css
+Creating Indian Flag from scratch using HTML and CSS with animation
