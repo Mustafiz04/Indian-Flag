@@ -5,7 +5,7 @@ h1{
     text-align: center;
     font-size: 3rem;
     text-transform: uppercase;
-    
+
 }
 sup{
     font-size: 2rem;
@@ -23,7 +23,7 @@ sup{
     font-size: 10px;
     width: 90em;
     height: 60em;
-    border: 1px solid #aaa;
+    /* border: 1px solid #aaa; */
     margin: 0 auto;
 }
 .strip{
@@ -31,7 +31,7 @@ sup{
     box-sizing: border-box;
 }
 .strip1{
-    background-color : #FF9933;   
+    background-color : #FF9933;
 }
 .strip2{
     padding: 1em;
